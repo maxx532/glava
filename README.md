@@ -1,4 +1,13 @@
+GLava for Ubuntu 24.04 / Linux Mint 22
 
+Changes
+
+- Fixed GCC 13 multiple definition error
+- Builds with Meson 1.3+
+- Tested on Ubuntu 24.04
+- Tested on Linux Mint 22.2
+
+- 
 <img align="left" width="200" height="200" src="https://thumbs.gfycat.com/DefiantInformalIndianspinyloach-size_restricted.gif" />
 
 **GLava** is a general-purpose, highly configurable OpenGL audio spectrum visualizer for X11. Displayed to the left is the `radial` shader module, or for a more extensive demonstration [see this demo](https://streamable.com/dgpj8). Development is active, and reporting issues is encouranged.
