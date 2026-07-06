@@ -19,6 +19,7 @@
 #include "glfft_wisdom.hpp"
 #include "glfft_interface.hpp"
 #include "glfft.hpp"
+#include <stdexcept>
 #include <utility>
 
 /* GLAVA NOTICE: automatic wisdom serialization support may be added at a late date */
@@ -270,7 +271,7 @@ std::pair<double, FFTOptions::Performance> FFTWisdom::study(Context *context, co
                 break;
 
             default:
-                throw logic_error("Invalid input mode.\n");
+                throw std::logic_error("Invalid input mode.\n");
         }
 
         input = context->create_texture(tmp.data(), Nx, Ny, format);

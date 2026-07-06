@@ -30,6 +30,9 @@ extern "C" {
     #include <stdlib.h>
     #include <string.h>
     #include <error.h>
+    #include <cstdio>
+    #include <cerrno>
+    #include <cstring>
 }
 
 #ifndef GLFFT_GLSL_LANG_STRING
