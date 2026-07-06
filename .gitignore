@@ -1,1 +1,15 @@
 build/
+debian/
+*.deb
+*.changes
+*.buildinfo
+*.dsc
+*.tar.*
+*.orig.tar.*
+description-pak
+doc-pak/
+installwatch.log
+*.o
+*.so
+*.a
+*.swp
